@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'halfmoon/css/halfmoon-variables.min.css'
+
+const halfmoon = require("halfmoon");
+
+halfmoon.toggleDarkMode();
 
 ReactDOM.render(
   <React.StrictMode>
