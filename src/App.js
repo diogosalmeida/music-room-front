@@ -1,6 +1,7 @@
 import './App.css';
 import Feed from './components/feed/Feed';
 import Queue from './components/queue/Queue';
+import Iframe from './components/iframe/Iframe';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           </div>
           <div className="col-sm">
             <Queue />
+            <Iframe />
           </div>
         </div>
       </div>
