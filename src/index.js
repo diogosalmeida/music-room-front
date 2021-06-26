@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/Layout/App';
 import reportWebVitals from './reportWebVitals';
-import 'halfmoon/css/halfmoon-variables.min.css'
+import 'halfmoon/css/halfmoon-variables.min.css';
 
-const halfmoon = require("halfmoon");
+const halfmoon = require('halfmoon');
 
 halfmoon.toggleDarkMode();
 
@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
