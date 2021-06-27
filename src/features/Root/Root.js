@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
-import Feed from '../../features/Feed/Feed';
-import Queue from '../../features/Queue/Queue';
-import Iframe from '../Iframe/Iframe';
+import './Root.css';
+import Feed from '../Feed/Feed';
+import Queue from '../Queue/Queue';
+import Iframe from '../../components/Iframe/Iframe';
 
-function App() {
+// TODO: add routes
+function Root() {
   const sobre = 'Um pouco sobre mim';
 
   return (
@@ -43,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default Root;
